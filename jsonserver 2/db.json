@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "name": "lisa",
+      "phone": 576768,
+      "email": "Lisa@qq.com",
+      "id": 1,
+      "age": 14,
+      "companyID": 1
+    },
+    {
+      "name": "史密斯",
+      "phone": 576768,
+      "email": "4lingda@qq.com",
+      "id": 2,
+      "age": 16,
+      "companyID": 2
+    },
+    {
+      "name": "dora",
+      "phone": 576768,
+      "email": "dora@qq.com",
+      "id": 3,
+      "age": 17,
+      "companyID": 3
+    },
+    {
+      "name": "phil",
+      "phone": 576768,
+      "email": "phil@qq.com",
+      "id": 4,
+      "age": 18,
+      "companyID": 3
+    },
+    {
+      "name": "deven",
+      "age": 14,
+      "company": 5,
+      "email": "deven@qq.com",
+      "id": 5,
+      "phone": 567546
+    },
+    {
+      "name": "vsdvf",
+      "phone": "ew",
+      "email": "d ",
+      "education": "fvds ",
+      "graduationschool": " svfds",
+      "job": " xvf",
+      "profile": "fsvr",
+      "id": 6
+    },
+    {
+      "name": "dvsfdwa",
+      "phone": "vds",
+      "email": "vsdwds",
+      "education": "fcxvd",
+      "graduationschool": "fsvcsd",
+      "profile": "vewsd",
+      "id": 7
+    },
+    {
+      "name": "ghjk",
+      "phone": "gvhjbn,",
+      "email": "b,jn",
+      "education": "hvbj,nk",
+      "graduationschool": "jhbn",
+      "id": 8
+    },
+    {
+      "name": "vds",
+      "phone": "gdfx",
+      "email": "vdxs",
+      "graduationschool": "vfdx",
+      "id": 9
+    }
+  ],
+  "companys": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "descript": "Apple is good!"
+    },
+    {
+      "id": 2,
+      "name": "Microft",
+      "descript": "Microft is good!"
+    },
+    {
+      "id": 3,
+      "name": "Huawei",
+      "descript": "Huawei is good!"
+    }
+  ]
+}
