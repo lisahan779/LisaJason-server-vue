@@ -1,78 +1,33 @@
 {
   "users": [
     {
-      "name": "lisa",
-      "phone": 576768,
-      "email": "Lisa@qq.com",
-      "id": 1,
-      "age": 14,
-      "companyID": 1
+      "name": "小hua",
+      "phone": "123456",
+      "email": "1323@qq.com",
+      "education": "一本",
+      "graduationschool": "中国农业大学",
+      "job": "技术人员",
+      "profile": "是甘肃农村的一名孩子",
+      "id": 2
     },
     {
-      "name": "史密斯",
-      "phone": 576768,
-      "email": "4lingda@qq.com",
-      "id": 2,
-      "age": 16,
-      "companyID": 2
+      "name": "xiao",
+      "phone": "6767889",
+      "email": "123675@qq.con",
+      "education": "本科",
+      "graduationschool": "交大",
+      "job": "文员",
+      "profile": "喜欢玩",
+      "id": 3
     },
     {
-      "name": "dora",
-      "phone": 576768,
-      "email": "dora@qq.com",
-      "id": 3,
-      "age": 17,
-      "companyID": 3
-    },
-    {
-      "name": "phil",
-      "phone": 576768,
-      "email": "phil@qq.com",
-      "id": 4,
-      "age": 18,
-      "companyID": 3
-    },
-    {
-      "name": "deven",
-      "age": 14,
-      "company": 5,
-      "email": "deven@qq.com",
-      "id": 5,
-      "phone": 567546
-    },
-    {
-      "name": "vsdvf",
-      "phone": "ew",
-      "email": "d ",
-      "education": "fvds ",
-      "graduationschool": " svfds",
-      "job": " xvf",
-      "profile": "fsvr",
-      "id": 6
-    },
-    {
-      "name": "dvsfdwa",
-      "phone": "vds",
-      "email": "vsdwds",
-      "education": "fcxvd",
-      "graduationschool": "fsvcsd",
-      "profile": "vewsd",
-      "id": 7
-    },
-    {
-      "name": "ghjk",
-      "phone": "gvhjbn,",
-      "email": "b,jn",
-      "education": "hvbj,nk",
-      "graduationschool": "jhbn",
-      "id": 8
-    },
-    {
-      "name": "vds",
-      "phone": "gdfx",
-      "email": "vdxs",
-      "graduationschool": "vfdx",
-      "id": 9
+      "name": "小明",
+      "phone": "23w43",
+      "email": "324532",
+      "education": "sadxcv",
+      "graduationschool": "sdbcv",
+      "profile": "dxvc b",
+      "id": 4
     }
   ],
   "companys": [

@@ -1,21 +1,53 @@
-<!-- 获取所有用户信息 -->
+# 配置 json -server 
+ 1. 安装json server 
+`npm install -g json-server`
+
+ 2. 创建文件夹初始化packjson 
+ `npm init`
+ 3. 安装json-server到packjson中
+ `npm install json-server --save `
+ 4. 打开packjson 修改
+
+ ```javascript 
+   "scripts": {
+    "test": "json-server --watch db.json",
+    "remote":"json-server http://jsonplaceholder.typicode.com/db"
+  }
+  test和remote名字自定义
+```
+5. 创建db.json
+
+```javascript
+	{
+		"A":{},
+		"B":{}
+	}
+	A,B 对应就是localhost:3000后接的路径，
+
+```
+6. 在终端输入
+`npm run test`
+这样就启动了json server
+
+### 获取所有用户信息 
 http://localhost:3000/users
 
-<!-- 获取id为i的用户信息 -->
+###  获取id为i的用户信息 
 http://local了host:3000/users/1
 
-<!-- 同理获取公司的所有信息 -->
+###  同理获取公司的所有信息 
 http://localhost:3000/companys
 
-<!-- 获取所有公司id 为3的用户 -->
+###  获取所有公司id 为3的用户 
 http://localhost:3000/companys/3/users
-<!-- 通过名字获取信息 -->
+
+###  通过名字获取信息 
 http://localhost:3000/companys?name=Apple
 
-<!-- 根据多个名字获取公司信息 -->
+###  根据多个名字获取公司信息 
 http://localhost:3000/companys?name=Apple&name=Microft
 
-<!-- 获取一页中两条数据 -->
+###  获取一页中两条数据 
 http://localhost:3000/companys?_page=1&_limit=2
 
 <!-- 根据name升序排序获取数据 asc升序 desc降序 -->
